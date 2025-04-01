@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <section class="hero">
+            <div class="hero-text">
+                <h1>Hi, I am <br> <span>VYSHNAV P C</span></h1>
+                <p>Front-end developer creating beautiful and functional web experiences</p>
+            </div>
+            <div class="hero-image-container">
+                <div class="image-wrapper">
+                    <img src="icons/WhatsApp_Image_2025-04-01_at_21.10.04-removebg-preview.png" alt="Profile Picture" class="hero-image">
+                </div>
+                <div class="social-box">
+                    <div class="social-icons">
+                        <a href="#"><img src="icons/github-icon-1-logo-svgrepo-com.svg" alt="GitHub"></a>
+                        <a href="#"><img src="icons/linkedin-linked-in-svgrepo-com.svg" alt="LinkedIn"></a>
+                        <a href="#"><img src="icons/instagram-167-svgrepo-com.svg" alt="Instagram"></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+
+    <!-- Rest of your HTML remains the same -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I'm a front-end developer with a passion for creating beautiful and functional web experiences. I specialize in crafting responsive, user-friendly interfaces with clean code and modern design principles. When I'm not coding, I enjoy exploring new technologies and contributing to open-source projects.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-list">
+            <img src="icons/html5.png" alt="HTML5">
+            <img src="icons/css3.png" alt="CSS3">
+            <img src="icons/sass.png" alt="SASS">
+            <img src="icons/javascript.png" alt="JavaScript">
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Get in Touch</h2>
+        <p>Fill out the form below and I'll get back to you as soon as possible.</p>
+        <form class="contact-form" action="mailto:your-email@example.com" method="post" enctype="text/plain">
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="Your name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Your email" required>
+
+            <label for="phone">Phone</label>
+            <input type="tel" id="phone" placeholder="+91 XXXXXXXXXX">
+
+            <label for="message">Message</label>
+            <textarea id="message" placeholder="Your message" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Vyshnav P C. All rights reserved.</p>
+    </footer>
+</body>
+</html>
